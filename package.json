@@ -1,0 +1,26 @@
+{
+  "name": "agent-chat",
+  "version": "1.0.0",
+  "description": "A simple chat agent library for Node.js applications",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "chat",
+    "agent",
+    "messaging",
+    "conversation",
+    "chatbot"
+  ],
+  "author": "Conner Pope",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/999-Dev-Official/agent-chat.git"
+  },
+  "bugs": {
+    "url": "https://github.com/999-Dev-Official/agent-chat/issues"
+  },
+  "homepage": "https://github.com/999-Dev-Official/agent-chat#readme"
+}

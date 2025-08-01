@@ -1,0 +1,33 @@
+# Test files
+test.js
+*.test.js
+*.spec.js
+
+# Documentation for contributors
+PUBLISHING.md
+
+# Git files
+.git
+.gitignore
+
+# Development files
+.npmignore
+.eslintrc
+.prettierrc
+
+# IDE files
+.vscode
+.idea
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Examples directory (optional - remove this line if you want to include examples)
+examples/
