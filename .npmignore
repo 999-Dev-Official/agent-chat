@@ -1,7 +1,19 @@
+# Source files (we ship compiled JS)
+src/
+*.ts
+!*.d.ts
+
 # Test files
+test/
 test.js
 *.test.js
 *.spec.js
+*.test.ts
+*.spec.ts
+
+# TypeScript config
+tsconfig.json
+tsconfig.*.json
 
 # Documentation for contributors
 PUBLISHING.md
@@ -28,6 +40,9 @@ Thumbs.db
 # Logs
 *.log
 npm-debug.log*
+
+# Build artifacts
+*.tsbuildinfo
 
 # Examples directory (optional - remove this line if you want to include examples)
 examples/

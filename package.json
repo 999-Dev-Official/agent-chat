@@ -1,17 +1,23 @@
 {
   "name": "agent-chat",
-  "version": "1.0.0",
-  "description": "A simple chat agent library for Node.js applications",
-  "main": "index.js",
+  "version": "1.1.0",
+  "description": "A TypeScript client for the Agent Chat messaging API",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "test": "node test.js"
+    "build": "tsc",
+    "clean": "rm -rf dist",
+    "prepare": "npm run clean && npm run build",
+    "test": "npm run build && node test/test.js"
   },
   "keywords": [
     "chat",
     "agent",
     "messaging",
     "conversation",
-    "chatbot"
+    "chatbot",
+    "typescript",
+    "api-client"
   ],
   "author": "Temporary Organization Name LLC",
   "license": "ISC",
@@ -22,5 +28,17 @@
   "bugs": {
     "url": "https://github.com/999-Dev-Official/agent-chat/issues"
   },
-  "homepage": "https://github.com/999-Dev-Official/agent-chat#readme"
+  "homepage": "https://github.com/999-Dev-Official/agent-chat#readme",
+  "files": [
+    "dist/**/*",
+    "README.md",
+    "LICENSE"
+  ],
+  "dependencies": {
+    "axios": "^1.7.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "typescript": "^5.5.0"
+  }
 }
