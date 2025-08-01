@@ -2,7 +2,7 @@ import axios, { AxiosInstance, AxiosError } from "axios";
 import { AgentChatConfig, AgentChatError } from "./types";
 import { ChannelNamespace } from "./namespaces";
 
-const DEFAULT_BASE_URL = "http://message.999.dev";
+const DEFAULT_BASE_URL = "https://message.999.dev";
 
 export class AgentChat {
   private readonly client: AxiosInstance;
