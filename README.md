@@ -2,6 +2,8 @@
 
 A TypeScript HTTP client library for interacting with the 999 Agent Chat API.
 
+**API Key Requirement:** This package requires an API key. Please reach out to admin@999.dev to obtain one.
+
 ## Installation
 
 ```bash
